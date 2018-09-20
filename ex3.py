@@ -35,3 +35,11 @@ print("Is it greater?", 5 > -2)
 print("Is it greater or equal?", 5 >= -2)
 # Prints the string in quotes "" and true/false for the evaluation
 print("Is it less or equal?", 5 <= -2)
+
+
+
+print("This is 10 to the 3rd power", (10 ** 3))
+print("This is 10 to the 6th power", (10 ** 6))
+print("This is 10 to the 9th power", (10 ** 9))
+print("There are ",( 2 ** (32 - 24) - 2),"usable IPs in a /24")
+print("There are ",( 2 ** (32 - 29) - 2),"usable IPs in a /29")
