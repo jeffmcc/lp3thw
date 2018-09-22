@@ -1,17 +1,23 @@
-my_name = 'Zed A. Shaw'
-my_age = 35 # not a lie
-my_height = 74 # inches
-my_weight = 180 # pounds
-my_eyes = 'Blue'
-my_teeth = 'White'
-my_hair = 'Brown'
+name = 'Jef. McC......'
+age = 53 # not a lie
+height = 72 # inches
+weight = 330 # pounds
+eyes = 'Brown'
+# teeth = 'White'
+hair = 'Usta b Brown'
 
-print(f"Let's talk about {my_name}.")
-print(f"He's {my_height} inches tall.")
-print(f"He's {my_weight} pounds heavy.")
-print(f"Actually that's not too heavy.")
-print(f"He's got {my_eyes} eyes and {my_hair} hair.")
-print(f"His teeth are usually {my_teeth} depending on the coffee.")
+print(f"Let's talk about {name}.")
+print(f"He's {height} inches tall.")
+print(f"He's {weight} pounds heavy.")
+print(f"Actually that's too fuckin heavy.")
+print(f"He's got {eyes} eyes and {hair} hair.")
+# print(f"His teeth are usually {_teeth} depending on the coffee.")
 
-total = my_age + my_height + my_weight
-print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
+total = age + height + weight
+print(f"If I add {age}, {height}, and {weight} I get {total}.")
+
+# Study Drills
+# 1. Change all the variables so there is no my_ in front of each one. Make sure you change the name
+# everywhere, not just where you used = to set them.
+# 2. Try to write some variables that convert the inches and pounds to centimeters and kilograms. Do
+# not just type in the measurements. Work out the math in Python.
